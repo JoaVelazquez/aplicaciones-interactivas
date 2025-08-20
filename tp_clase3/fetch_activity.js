@@ -54,7 +54,7 @@ const initApp = async () => {
         renderUsers(users);
     } catch (error) {
         console.error(error);
-        showError('Error loading users data. Please try again later.');
+        showError('Error intentando cargar los usuarios. Por favor, intente nuevamente más tarde.');
     }
 };
 
