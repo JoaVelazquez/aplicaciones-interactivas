@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="google-container">
+        <header>
+            <nav>
+                <ul class="nav-right">
+                    <li><a href="https://accounts.google.com/v3/signin/identifier?hl=es&ifkv=AdBytiPWd6J1sWYlOUxpkTAdQeF6Rmhj779nKVKzzvVX0rzy_sT0B3qt32RVoHHbsq9-6UdpxXyiHA&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1881632111%3A1754439711410435">Gmail</a></li>
+                    <li><a href="https://www.google.com/imghp?hl=es&ogbl">Images</a></li>
+                    <li><button onclick="toggleTheme()" class="theme-toggle"><span id="theme-icon">🌙</span></button></li>
+                    <li><a href="#" class="apps-icon"><span></span></a></li>
+                    <li><a href="#" class="profile"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="Google" class="logo dark-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" class="logo light-logo">
+            <form class="search-form" action="https://www.google.com/search" method="get">
+                <div class="search-box">
+                    <span class="search-icon"></span>
+                    <input type="text" name="q" autocomplete="off">
+                    <span class="mic-icon"></span>
+                    <span class="lens-icon"></span>
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" name="btnI" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="footer-country">Argentina</div>
+            <div class="footer-links">
+                <ul class="footer-left">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+                <ul class="footer-right">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="theme.js"></script>
+</body>
+</html>
