@@ -1,0 +1,131 @@
+.cart {
+  padding: 25px;
+  border: 1px solid #404040;
+  border-radius: 12px;
+  margin: 20px 0;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  min-height: 300px;
+}
+
+.cart h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #999999;
+  font-style: italic;
+  font-size: 18px;
+  padding: 40px 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #404040;
+  border-radius: 10px;
+  background-color: #3a3a3a;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item-info h4 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.cart-item-info p {
+  margin: 0;
+  font-weight: bold;
+  color: #4ade80;
+  font-size: 18px;
+}
+
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-btn {
+  background-color: #4a4a4a;
+  border: 1px solid #666666;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.quantity-btn:hover {
+  background-color: #5a5a5a;
+}
+
+.quantity-btn:disabled {
+  background-color: #2a2a2a;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.quantity {
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.remove-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.remove-btn:hover {
+  background-color: #dc2626;
+}
+
+.cart-total {
+  border-top: 2px solid #4ade80;
+  padding-top: 20px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.cart-total h3 {
+  margin: 0;
+  color: #4ade80;
+  font-size: 24px;
+}
